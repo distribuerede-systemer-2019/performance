@@ -4,7 +4,7 @@ Performance testing handler om at i skal få en fornemmelse af, hvor mange bruge
 
 Der er to tilgange - Enten kan i bruge et konsol-program som siege som vi har brugt tidligere, eller i kan bruge et GUI program som jmeter. jmeter tillader jer at bygge mere avanceret test-planer, men det kræver også lidt arbejde at forstå hvordan jmeter virker.
 
-## jmeter
+## jmeter guides
 
 https://www.digitalocean.com/community/tutorials/how-to-use-apache-jmeter-to-perform-load-testing-on-a-web-server
 
