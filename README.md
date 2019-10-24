@@ -10,6 +10,8 @@ https://www.digitalocean.com/community/tutorials/how-to-use-apache-jmeter-to-per
 
 https://www.blazemeter.com/blog/getting-started-jmeter-basic-tutorial
 
+I behøver ikke tage højde for cookies, assertions eller at recorde jeres script.
+
 ## Generelle råd
 * Når i tester jeres applikation er det vigtig at simulere en belastning der er så realistisk som muligt. Det vil sige, at i ikke bare tilgår det samme URL 100 gange, men forskellige URLer. fx skal i ikke lave en test som åbner `/customers` 100 gange - i skal åbne alle customer-URLer (`/customer/1` osv.). I jmeter kan i få inspiration fra punktet "Dynamic Data"  i blazemeter guiden. I jmeter kan i også med fordel lave flere 'thread groups' så i kan sende forskellige requests afsted samtidig.
 * Husk ikke kun at teste `GET` requests, men også `PUT`, `POST`, og `DELETE`. Test også gerne hvordan jeres `GET` requests bliver påvirket når der kører `POST`s samtidig - bliver læsning langsommere når der er mange inserts / updates?
